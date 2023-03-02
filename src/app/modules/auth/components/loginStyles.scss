@@ -1,0 +1,419 @@
+:root {
+  --default: #112145;
+  --white: #fff;
+  --black: #000;
+  --green: #a4c21b;
+  --blue: #0d6efd;
+  --orange: #FFAE00;
+  --purple: #e723ca;
+  --red: #DF5F48;
+  --transparent: transparent;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+}
+
+body,
+html {
+  direction: rtl;
+  background-color: #040d21;
+  height: 100%;
+  overflow: scroll;
+}
+
+body,
+.tooltip,
+.popover,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Tajawal" !important;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  background-color: #fff;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #112145;
+  border-radius: 5px;
+}
+
+
+.page-wrapper .page-container .page-content {
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+}
+
+.page-wrapper .page-container .page-content .account-container {
+  padding: 15% 0 0;
+}
+
+.page-wrapper .page-container .page-content .signup {
+  margin: 25% 0 0;
+  padding: 20px 10px;
+  position: relative;
+  z-index: 99;
+}
+
+.page-wrapper .page-container .page-content .signup .ba-form .ba-input-group .form-control {
+  margin: 0 0 0 10px;
+  border-radius: 5px;
+}
+
+.page-wrapper .page-container .page-content .confirm-signup {
+  padding: 20px 10px 20px 20px;
+}
+
+.page-wrapper .page-container .page-content .confirm-signup .ba-text .typing-demo {
+  font-size: 3rem;
+}
+
+.page-wrapper .page-container .page-content .confirm-signup .ba-form .form-label {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #0d6efd;
+}
+
+.ba-form {
+  margin: 20px 0 0;
+  color: #fff;
+  transition: all 2s;
+}
+
+.page-wrapper .page-container .page-content .confirm-signup .ba-form .ba-input-group .input-icon i {
+  color: #ea4aaa;
+  font-size: .8em;
+  margin: 5px 0 0;
+  display: inline-block;
+  font-size: 25px;
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  z-index: 99;
+}
+
+.page-wrapper .page-container .page-content .confirm-signup .ba-form .ba-input-group .form-control {
+  background-color: transparent;
+  padding-right: 40px;
+  border-color: transparent;
+  color: #fff;
+  display: inline-block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.page-wrapper .page-container .page-content .confirm-signup .ba-form .ba-input-group .form-control::placeholder {
+  color: #fff;
+  padding-right: 10px;
+}
+
+.page-wrapper .page-container .page-content .confirm-signup .ba-form .ba-input-group .form-control:focus {
+  border-color: #fff;
+}
+
+.page-wrapper .page-container .page-content .confirm-signup .ba-form .ba-input-group .ba-text .typing-demo {
+  font-size: 1rem;
+}
+
+
+.btn-ba {
+  padding: 5px 25px;
+  border-radius: 5px !important;
+  font-size: 16px;
+}
+
+.btn-ba:hover,
+.btn-ba:focus {
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(147, 161, 187, 0.6) important;
+  opacity: 0.9;
+}
+
+
+
+.btn-ba-default {
+  background: #112145;
+  color: #fff;
+}
+
+.btn-ba-default:hover,
+.btn-ba-default:focus {
+  background: #112145;
+  color: #fff;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-black {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-black:hover,
+.btn-black:focus {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-green {
+  background-color: #a4c21b;
+  color: #fff;
+}
+
+.btn-green:hover,
+.btn-green:focus {
+  background-color: #a4c21b;
+  color: #fff;
+}
+
+.btn-blue {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.btn-blue:hover,
+.btn-blue:focus {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.btn-orange {
+  background-color: #FFAE00;
+  color: #fff;
+}
+
+.btn-orange:hover,
+.btn-orange:focus {
+  background-color: #FFAE00;
+  color: #fff;
+}
+
+.btn-purple {
+  background-color: #e723ca;
+  color: #fff;
+}
+
+.btn-purple:hover,
+.btn-purple:focus {
+  background-color: #e723ca;
+  color: #fff;
+}
+
+.btn-red {
+  background-color: #DF5F48;
+  color: #fff;
+}
+
+.btn-red:hover,
+.btn-red:focus {
+  background-color: #DF5F48;
+  color: #fff;
+}
+
+.btn-light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.btn-light:hover,
+.btn-light:focus {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.btn-gray {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn-gray:hover,
+.btn-gray:focus {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn-darkgray {
+  background-color: #212529;
+  color: #fff;
+}
+
+.btn-darkgray:hover,
+.btn-darkgray:focus {
+  background-color: #212529;
+  color: #fff;
+}
+
+.btn-transparent {
+  background-color: transparent;
+  color: #112145;
+  border: 1px solid #112145;
+}
+
+.btn-transparent:hover,
+.btn-transparent:focus {
+  background-color: #112145;
+  color: #fff;
+}
+
+
+
+.ba-form {
+  margin: 20px 0 0;
+  color: #fff;
+  transition: all 2s;
+}
+
+.ba-form .title {
+  font-weight: 600;
+  font-size: 3.3rem;
+  line-height: 65px;
+}
+
+.ba-form .desc {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.ba-form .form-group {
+  margin: 0 0 15px;
+  transition: all 1s;
+}
+
+.ba-form .form-group .form-control {
+  padding: .5rem 1rem;
+  transition: all 1s;
+  width: 50% !important;
+}
+
+.ba-form .form-group .form-control:focus {
+  border-color: #E6C98D;
+  box-shadow: 0 0 #E6C98D;
+  outline: none;
+}
+
+.ba-form .form-group .form-control::placeholder {
+  color: #adb5bd;
+}
+
+.ba-form .form-group .input-icon {
+  position: relative;
+  transition: all 1s;
+}
+
+
+
+.ba-form .form-group .input-icon .ba-text .typing-demo {
+  width: 14ch;
+  font-size: 50px;
+  animation: typing 1s steps(22), blink 0.5s step-end infinite alternate;
+}
+
+.ba-form .form-group .input-icon .form-select {
+  padding: .5rem 2.5rem;
+}
+
+.ba-form .form-group .input-icon i {
+  position: absolute;
+  color: #dee2e6;
+  right: 15px;
+  top: 13px;
+  z-index: 99;
+}
+
+.ba-form .ba-input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.ba-form .ba-input-group .input-icon {
+  flex: 1 1 auto;
+}
+
+.ba-form .form-action {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.ba-form .form-action .btn {
+  padding: 7px 65px;
+  border-radius: 5px !important;
+}
+
+.ba-text {
+  position: relative;
+  z-index: 9;
+}
+
+.ba-text .typing-demo {
+  width: 47ch;
+  animation: typing 4s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 3rem;
+  color: #fff;
+}
+.ba-form .form-group .input-icon .ba-text .typing-demo {
+  width: 14ch;
+  animation: typing 1s steps(22), blink 0.5s step-end infinite alternate;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+
+.form-control {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
